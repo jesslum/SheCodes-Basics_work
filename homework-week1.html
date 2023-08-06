@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      h1 {
+        font-weight: bolder;
+        font-size: 34px;
+        color: #2d6bcf;
+      }
+
+      h2 {
+        font-size: 34px;
+        margin-top: -12px;
+        font-weight: normal;
+      }
+
+      ul {
+        list-style: none;
+        font-size: 20px;
+        padding: 0px;
+      }
+
+      li {
+        padding: 0px;
+      }
+
+      p {
+        font-family: monospace;
+      }
+
+      .day {
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .grouped {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        width: 500px;
+        height: 120px;
+      }
+
+      .grouped:hover {
+        background: #ffebbb;
+      }
+
+      button {
+        display: block;
+        padding: 20px;
+        font-size: 20px;
+        margin: 0 auto;
+        border: 1px solid;
+        color: white;
+        background: #2d6bcf;
+        border-radius: 40px;
+        box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        background: white;
+        color: #2d6bcf;
+        cursor: pointer;
+      }
+
+      .footer {
+        font-size: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title">
+      <h1>
+        🌤 <br />
+        Currently 21&#176; in Tokyo
+      </h1>
+    </div>
+    <h2>13&#176; /<strong> 23&#176;</strong></h2>
+
+    <div class="dow">
+      <ul>
+        <li>
+          <div class="grouped">
+            <div class="day">🌧Tomorrow</div>
+            <p>10&#176; / 22&#176;</p>
+          </div>
+        </li>
+        <li>
+          <div class="grouped">
+            <div class="day">🌥Saturday</div>
+            <p>15&#176; / 17&#176;</p>
+          </div>
+        </li>
+        <li>
+          <div class="grouped">
+            <div class="day">☀️Sunday</div>
+            <p>25&#176; / 28&#176;</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <button>Change City</button>
+
+    <p class="footer">Coded by Kaji Lumfwa</p>
+  </body>
+</html>
